@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CodeFights.Arcade
+﻿namespace CodeFights.Arcade
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            Intro.centuryFromYear(1905);
+
+            Intro.adjacentElementsProduct(new int[] { -23, 4, -3, 8, -12 });
         }
     }
 }
