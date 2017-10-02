@@ -10,6 +10,7 @@ namespace CodeFights.Arcade
     {
         static void Main(string[] args)
         {
+            Intro.centuryFromYear(1905);
         }
     }
 }
