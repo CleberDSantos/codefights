@@ -5,7 +5,8 @@ namespace CodeFights.Arcade
     internal static class Intro
     {
 
-        public static int centuryFromYear(int year) {
+        public static int centuryFromYear(int year)
+        {
 
             var div = (year / 100);
 
@@ -39,7 +40,7 @@ namespace CodeFights.Arcade
 
             int hightValue = 0;
 
-            for (int i = 0; i < inputArray.Length -1; i++)
+            for (int i = 0; i < inputArray.Length - 1; i++)
             {
                 var element = inputArray[i];
                 var nextElement = inputArray[i + 1];
@@ -60,6 +61,14 @@ namespace CodeFights.Arcade
 
             return hightValue;
         }
+
+        public static int shapeArea(int n)
+        {
+            var result = 1 + 2 * n * (n - 1);
+
+            return result;
+        }
+
 
     }
 }
