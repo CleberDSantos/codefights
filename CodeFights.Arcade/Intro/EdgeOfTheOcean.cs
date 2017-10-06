@@ -2,7 +2,7 @@
 
 namespace CodeFights.Arcade
 {
-    internal static class Intro
+    internal static class EdgeOfTheOcean
     {
 
         public static int centuryFromYear(int year)
@@ -65,6 +65,20 @@ namespace CodeFights.Arcade
         public static int shapeArea(int n)
         {
             var result = 1 + 2 * n * (n - 1);
+
+            return result;
+        }
+
+        public static int makeArrayConsecutive2(int[] statues)
+        {
+
+            // 2 3 6 8
+            // 4 5 7
+
+            Array.Sort(statues);
+
+            var lastNumber = statues[statues.Length - 1] - statues[0];
+            var result = lastNumber + 1 - statues.Length;
 
             return result;
         }

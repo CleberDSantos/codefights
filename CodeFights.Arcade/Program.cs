@@ -5,7 +5,7 @@
         private static void Main(string[] args)
         {
 
-            Intro.shapeArea(3);
+            EdgeOfTheOcean.makeArrayConsecutive2(new int[] { 6, 2, 3, 8 });
         }
     }
 }
